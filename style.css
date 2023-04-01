@@ -98,12 +98,74 @@ section{
 
 .social-icons a{
     color: #C9EEFF;
-    font-size: 1.2em;
+    font-size: 1.7em;
     padding-right: 30px;
     transition: 0.9s ease ;
 }
 
 .social-icons a:hover{
     
-    font-size: 1.8em;
+    font-size: 2em;
+}
+/*------------------- end Main section -------------__ new section__*/ 
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: #19A7CE;
+    font-size: 2.2em ;
+    font-weight: 800;
+    margin-bottom: 38px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.card{
+    background-color: #C9EEFF;
+    width: 22em;
+    box-shadow: 0 5px 30px  rgba(1, 1, 1.5, 100%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 19px;
+    transition: 1.2s ease;
+
+}
+.cards{
+    background-image: url(imagzs/background-1747777.jpg);
+    background-attachment: fixed;                                                   
+}
+.card:hover{
+    transition: 1.2s ease;
+    transform: scale(1.1);
+}
+
+.icon{
+    color:#146C94;
+    font-size: 6em;
+    text-align: center;
+
+}
+.info {
+    text-align: center;
+}
+
+.info h3{
+    color: #146C94;
+    font-size: 1.4em;
+    font-weight: 700;
+    margin: 10px;
+
+
+}
+.info p{
+    margin: 18px;
+    text-align: center;
+    font-weight: 500;
+    color: black;
+    margin: 20px;
 }
